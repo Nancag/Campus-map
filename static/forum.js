@@ -126,12 +126,15 @@
         var cc = p.commentCount || 0;
         var topicName = topicDisplay(p.topic);
         var teamBadge = p.tripId ? '<span class="team-badge">🚗 拼车队伍</span>' : "";
+        var canDelete = p.authorName === state.username || state.username === "admin";
+        var deleteBtn = canDelete ? '<button class="delete-btn" data-id="' + escapeHtml(p.postId) + '">删除</button>' : "";
         return '<div class="post-card' + (p.tripId ? " team-post-card" : "") + '" data-topic="' + escapeHtml(p.topic || "life") + '" data-id="' + escapeHtml(p.postId) + '">' +
           '<div class="post-meta">' +
           '<span class="topic-tag" data-topic="' + escapeHtml(p.topic || "life") + '">' + escapeHtml(topicName) + "</span>" +
           teamBadge +
           '<span class="post-author">' + escapeHtml(p.authorName) + "</span>" +
           '<span class="post-time">' + formatTime(p.createdAt) + "</span>" +
+          deleteBtn +
           "</div>" +
           '<div class="post-title">' + escapeHtml(p.title) + "</div>" +
           '<div class="post-preview">' + escapeHtml(p.content) + "</div>" +
@@ -144,6 +147,12 @@
       list.querySelectorAll(".post-card").forEach(function (card) {
         card.addEventListener("click", function () {
           openDetail(card.getAttribute("data-id"));
+        });
+      });
+      list.querySelectorAll(".delete-btn").forEach(function (btn) {
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          deletePost(btn.getAttribute("data-id"));
         });
       });
     });
@@ -220,6 +229,14 @@
         if (res.data.liked) { btn.classList.add("liked"); }
         else { btn.classList.remove("liked"); }
       }
+      loadPosts();
+    });
+  }
+
+  function deletePost(postId) {
+    if (!confirm("确认删除该帖子吗？删除后无法恢复。")) return;
+    api("DELETE", "/api/posts/" + postId).then(function (res) {
+      if (res.code !== 0) { alert(res.message || "删除失败"); return; }
       loadPosts();
     });
   }

@@ -54,7 +54,7 @@ def create(post: dict) -> None:
 
 
 def search(campus_name: Optional[str], topic: Optional[str], page: int, size: int) -> Tuple[List[dict], int]:
-    conds = []
+    conds = ["p.deleted = 0"]
     params: list = []
     if campus_name:
         conds.append("p.campus_name = ?")
@@ -62,7 +62,7 @@ def search(campus_name: Optional[str], topic: Optional[str], page: int, size: in
     if topic:
         conds.append("p.topic = ?")
         params.append(topic)
-    cond = (" WHERE " + " AND ".join(conds)) if conds else ""
+    cond = " WHERE " + " AND ".join(conds)
 
     conn = db.get_conn()
     try:
@@ -80,9 +80,22 @@ def find_by_id(post_id: str) -> Optional[dict]:
     conn = db.get_conn()
     try:
         row = conn.execute(
-            f"SELECT p.*,{_COUNTS} FROM posts p WHERE p.post_id = ?",
+            f"SELECT p.*,{_COUNTS} FROM posts p WHERE p.post_id = ? AND p.deleted = 0",
             (post_id,),
         ).fetchone()
         return _row_to_post(row) if row else None
+    finally:
+        conn.close()
+
+
+def soft_delete(post_id: str) -> bool:
+    conn = db.get_conn()
+    try:
+        cur = conn.execute(
+            "UPDATE posts SET deleted = 1 WHERE post_id = ? AND deleted = 0",
+            (post_id,),
+        )
+        conn.commit()
+        return cur.rowcount > 0
     finally:
         conn.close()

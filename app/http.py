@@ -38,6 +38,7 @@ ROUTES = [
     (r"/api/posts", {"POST"}, posts.create_post),
     (r"/api/posts", {"GET"}, posts.list_posts),
     (r"/api/posts/(?P<id>\w+)", {"GET"}, posts.get_post),
+    (r"/api/posts/(?P<id>\w+)", {"DELETE"}, posts.delete_post),
     (r"/api/posts/(?P<id>\w+)/comments", {"POST"}, posts.create_comment),
     (r"/api/posts/(?P<id>\w+)/comments", {"GET"}, posts.list_comments),
     (r"/api/posts/(?P<id>\w+)/like", {"POST"}, posts.toggle_like),
@@ -143,6 +144,9 @@ class AppHandler(BaseHTTPRequestHandler):
         self._handle()
 
     def do_POST(self):
+        self._handle()
+
+    def do_DELETE(self):
         self._handle()
 
     def log_message(self, format, *args):

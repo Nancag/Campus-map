@@ -109,6 +109,7 @@ def init_db() -> None:
             _ensure_column(conn, "trips", "remark", "TEXT")
             _ensure_column(conn, "trips", "team_name", "TEXT NOT NULL DEFAULT ''")
             _ensure_column(conn, "posts", "topic", "TEXT NOT NULL DEFAULT 'life'")
+            _ensure_column(conn, "posts", "deleted", "INTEGER NOT NULL DEFAULT 0")
             for campus in SUPPORTED_CAMPUSES:
                 conn.execute(
                     "INSERT OR REPLACE INTO campuses (name, center_lat, center_lng, radius_km) "

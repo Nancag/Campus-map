@@ -2,7 +2,7 @@
 from datetime import datetime
 from typing import Optional, Tuple
 
-from app.config import POST_CONTENT_MAX_LEN, POST_TITLE_MAX_LEN, POST_TOPICS
+from app.config import ADMIN_USERNAMES, POST_CONTENT_MAX_LEN, POST_TITLE_MAX_LEN, POST_TOPICS
 from app.models.schemas import ErrorCode
 from app.repositories import post_repo
 
@@ -45,3 +45,12 @@ def get_post(post_id: str) -> Optional[dict]:
         from app.services import trip_service
         post["trip"] = trip_service.get_trip(post["tripId"])
     return post
+
+def delete_post(username: str, post_id: str) -> Tuple[int, str, Optional[dict]]:
+    post = post_repo.find_by_id(post_id)
+    if not post:
+        return ErrorCode.NOT_FOUND, "帖子不存在", None
+    if post["authorName"] != username and username not in ADMIN_USERNAMES:
+        return ErrorCode.FORBIDDEN, "无权限删除该帖子", None
+    post_repo.soft_delete(post_id)
+    return ErrorCode.OK, "帖子删除成功", None

@@ -58,3 +58,9 @@ def toggle_like(h, body, path_params):
     post_id = path_params["id"]
     result = like_service.toggle_like(username, post_id)
     return ok(result)
+
+def delete_post(h, body, path_params):
+    _token, username, _ = h.get_session()
+    post_id = path_params["id"]
+    code, msg, data = post_service.delete_post(username, post_id)
+    return ok(data, msg) if code == ErrorCode.OK else err(code, msg)

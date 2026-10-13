@@ -1,1 +1,3 @@
-static/amap-config.js
+__pycache__/
+*.pyc
+data/campus_carpool.db

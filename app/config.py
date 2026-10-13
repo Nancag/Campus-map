@@ -69,3 +69,5 @@ CAMPUS_GATE_NAMES = {
 
 # 论坛帖子主题（英文 key 存储，前端映射中文标签）
 POST_TOPICS = ["carpool", "life", "market", "activity", "study", "lost_found"]
+# 管理员用户名列表（可通过环境变量 CAMPUS_ADMIN_USERNAMES 配置，逗号分隔）
+ADMIN_USERNAMES = [u.strip() for u in os.environ.get("CAMPUS_ADMIN_USERNAMES", "admin").split(",") if u.strip()]
