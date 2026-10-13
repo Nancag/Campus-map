@@ -26,6 +26,7 @@ ROUTES = [
     (r"/api/trips", {"GET"}, trips.list_trips),
     (r"/api/my-teams", {"GET"}, trips.my_teams),
     (r"/api/trips/(?P<id>\w+)", {"GET"}, trips.get_trip),
+    (r"/api/trips/(?P<id>\w+)", {"DELETE"}, trips.delete_trip),
     (r"/api/trips/(?P<id>\w+)/join", {"POST"}, trips.join_trip),
     (r"/api/trips/(?P<id>\w+)/leave", {"POST"}, trips.leave_trip),
     (r"/api/trips/(?P<id>\w+)/depart", {"POST"}, trips.depart),

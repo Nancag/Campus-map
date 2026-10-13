@@ -108,6 +108,7 @@ def init_db() -> None:
             _ensure_column(conn, "trips", "gender", "TEXT NOT NULL DEFAULT '不限'")
             _ensure_column(conn, "trips", "remark", "TEXT")
             _ensure_column(conn, "trips", "team_name", "TEXT NOT NULL DEFAULT ''")
+            _ensure_column(conn, "trips", "deleted", "INTEGER NOT NULL DEFAULT 0")
             _ensure_column(conn, "posts", "topic", "TEXT NOT NULL DEFAULT 'life'")
             _ensure_column(conn, "posts", "deleted", "INTEGER NOT NULL DEFAULT 0")
             for campus in SUPPORTED_CAMPUSES:

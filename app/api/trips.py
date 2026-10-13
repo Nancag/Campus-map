@@ -106,3 +106,8 @@ def my_teams(h, body, path_params):
     _token, username, _ = h.get_session()
     items = trip_service.get_trips_by_leader(username)
     return ok({"items": items, "total": len(items)})
+
+def delete_trip(h, body, path_params):
+    _token, username, _ = h.get_session()
+    code, msg, data = trip_service.delete_trip(username, path_params["id"])
+    return ok(data, msg) if code == ErrorCode.OK else err(code, msg)

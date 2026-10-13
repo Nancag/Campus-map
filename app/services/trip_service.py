@@ -4,6 +4,7 @@ from datetime import datetime
 from typing import Optional, Tuple
 
 from app.config import (
+    ADMIN_USERNAMES,
     CAMPUS_GATE_NAMES,
     GENDER_FEMALE_ONLY,
     GENDER_MALE_ONLY,
@@ -265,3 +266,13 @@ def list_members(trip_id: str) -> Tuple[int, str, Optional[dict]]:
 
 def get_trips_by_leader(username: str) -> list:
     return trip_repo.get_trips_by_leader(username)
+
+def delete_trip(username: str, trip_id: str) -> Tuple[int, str, Optional[dict]]:
+    trip = trip_repo.find_by_id(trip_id)
+    if trip is None:
+        return ErrorCode.NOT_FOUND, "车队不存在", None
+    if trip["leaderName"] != username and username not in ADMIN_USERNAMES:
+        return ErrorCode.FORBIDDEN, "无权限删除该车队", None
+    trip_repo.clear_members(trip_id)
+    trip_repo.soft_delete(trip_id)
+    return ErrorCode.OK, "车队删除成功", None

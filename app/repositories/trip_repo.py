@@ -65,7 +65,7 @@ def create(trip: dict) -> None:
 def find_by_id(trip_id: str) -> Optional[dict]:
     conn = db.get_conn()
     try:
-        row = conn.execute("SELECT * FROM trips WHERE trip_id = ?", (trip_id,)).fetchone()
+        row = conn.execute("SELECT * FROM trips WHERE trip_id = ? AND deleted = 0", (trip_id,)).fetchone()
         return _row_to_trip(row) if row else None
     finally:
         conn.close()
@@ -80,7 +80,7 @@ def search(
     size: int,
 ) -> Tuple[List[dict], int]:
     """按关键词模糊检索 + 可选出发时间区间，按创建时间倒序分页。"""
-    sql = "SELECT * FROM trips WHERE 1=1"
+    sql = "SELECT * FROM trips WHERE deleted = 0"
     params: list = []
 
     if origin:
@@ -99,7 +99,7 @@ def search(
     conn = db.get_conn()
     try:
         total = conn.execute(
-            f"SELECT COUNT(*) AS c FROM trips WHERE 1=1" + _where_suffix(origin, destination, depart_from, depart_to),
+            f"SELECT COUNT(*) AS c FROM trips WHERE deleted = 0" + _where_suffix(origin, destination, depart_from, depart_to),
             params,
         ).fetchone()["c"]
 
@@ -262,9 +262,22 @@ def get_trips_by_leader(username: str) -> list:
     conn = db.get_conn()
     try:
         rows = conn.execute(
-            "SELECT * FROM trips WHERE leader = ? AND status NOT IN ('已取消','已完成') ORDER BY created_at DESC",
+            "SELECT * FROM trips WHERE leader = ? AND deleted = 0 AND status NOT IN ('已取消','已完成') ORDER BY created_at DESC",
             (username,),
         ).fetchall()
         return [_row_to_trip(r) for r in rows]
+    finally:
+        conn.close()
+
+
+def soft_delete(trip_id: str) -> bool:
+    conn = db.get_conn()
+    try:
+        cur = conn.execute(
+            "UPDATE trips SET deleted = 1 WHERE trip_id = ? AND deleted = 0",
+            (trip_id,),
+        )
+        conn.commit()
+        return cur.rowcount > 0
     finally:
         conn.close()

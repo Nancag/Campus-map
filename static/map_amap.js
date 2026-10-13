@@ -97,10 +97,13 @@ function renderTripList() {
     var badge = '<span class="ti-badge ' + statusClass(t.status) + '">' + t.status + '</span>';
     var genderTag = t.gender && t.gender !== "不限" ? " · " + t.gender : "";
     var teamName = t.teamName ? t.teamName : (t.destination || "未命名队伍");
+    var canDelete = state.username === t.leaderName || state.username === "admin";
+    var deleteBtn = canDelete ? '<button class="ti-delete-btn" onclick="event.stopPropagation();deleteTrip(\'' + t.tripId + '\')">删除</button>' : '';
     div.innerHTML =
       '<div class="ti-dest">' + teamName + '</div>' +
       '<div class="ti-meta">' + t.origin + ' → ' + t.destination + ' · ' + t.departAt + ' · ' + seats + '人' + genderTag + '</div>' +
-      badge;
+      badge +
+      deleteBtn;
     div.addEventListener("click", function () { showTripDetail(t); });
     container.appendChild(div);
   });
@@ -198,6 +201,13 @@ function showTripDetail(t) {
       '<button class="btn-danger" onclick="dissolveTrip(\'' + t.tripId + '\')">解散队伍</button>' +
       '</div>';
   }
+  var canDeleteTrip = isLeader || state.username === "admin";
+  var deleteBtns = "";
+  if (canDeleteTrip) {
+    deleteBtns = '<div class="trip-detail-actions">' +
+      '<button class="btn-danger" onclick="deleteTrip(\'' + t.tripId + '\')">删除车队</button>' +
+      '</div>';
+  }
   var teamName = t.teamName ? t.teamName : "未命名队伍";
   info.innerHTML =
     '<div class="trip-detail-row"><span class="td-label">队名</span><span class="td-value">' + teamName + '</span></div>' +
@@ -211,7 +221,8 @@ function showTripDetail(t) {
     '<div class="trip-detail-row"><span class="td-label">状态</span><span class="td-value">' + t.status + '</span></div>' +
     (t.remark ? '<div class="trip-detail-row"><span class="td-label">备注</span><span class="td-value">' + t.remark + '</span></div>' : '') +
     (btnsHtml ? '<div class="trip-detail-actions">' + btnsHtml + '</div>' : '') +
-    leaderBtns;
+    leaderBtns +
+    deleteBtns;
   setMsg("jm-msg", "");
   $("join-trip-modal").classList.remove("hidden");
   loadTripMembers(t.tripId, isLeader);
@@ -1338,6 +1349,15 @@ async function dissolveTrip(tripId) {
   var data = await api("/api/trips/" + tripId + "/dissolve", { method: "POST" });
   if (data.code !== 0) { setMsg("jm-msg", data.message, true); return; }
   setMsg("jm-msg", "队伍已解散");
+  $("join-trip-modal").classList.add("hidden");
+  await refreshTrips();
+}
+
+async function deleteTrip(tripId) {
+  if (!confirm("确认删除该车队吗？删除后无法恢复")) return;
+  var data = await api("/api/trips/" + tripId, { method: "DELETE" });
+  if (data.code !== 0) { setMsg("jm-msg", data.message, true); return; }
+  setMsg("jm-msg", "车队删除成功");
   $("join-trip-modal").classList.add("hidden");
   await refreshTrips();
 }
