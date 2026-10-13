@@ -20,10 +20,12 @@ REMARK_MAX_LEN = 200
 APP_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SQLite 数据库路径（可经环境变量 CAMPUS_CARPOOL_DB 覆盖）
-DB_PATH = os.environ.get(
-    "CAMPUS_CARPOOL_DB",
-    os.path.join(APP_DIR, "data", "campus_carpool.db"),
-)
+# Render 免费 Web Service 文件系统为 ephemeral，项目目录只读，使用 /tmp 保证可写
+if os.environ.get("RENDER") == "true":
+    _default_db_path = "/tmp/campus_carpool.db"
+else:
+    _default_db_path = os.path.join(APP_DIR, "data", "campus_carpool.db")
+DB_PATH = os.environ.get("CAMPUS_CARPOOL_DB", _default_db_path)
 
 # 会话有效期（秒），默认 24 小时
 SESSION_TTL_SECONDS = int(os.environ.get("CAMPUS_CARPOOL_SESSION_TTL", 24 * 3600))

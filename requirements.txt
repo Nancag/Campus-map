@@ -1,1 +1,2 @@
-# 本 Demo 采用 Python 标准库实现，零第三方依赖，开箱即用，无需安装依赖。
+fastapi
+uvicorn

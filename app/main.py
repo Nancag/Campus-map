@@ -12,4 +12,5 @@ from app.models.db import init_db  # noqa: E402
 if __name__ == "__main__":
     init_db()
     auto_open = os.environ.get("CAMPUS_AUTO_OPEN_BROWSER") == "1"
-    run_server(auto_open_browser=auto_open)
+    port = int(os.environ.get("PORT", 8000))
+    run_server(port=port, auto_open_browser=auto_open)
