@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus map · 论坛</title>
+  <link rel="stylesheet" href="/forum.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="back-link" href="/">← 首页</a>
+    <h1 class="brand">校园论坛</h1>
+    <div id="user-area"></div>
+  </header>
+
+  <div id="login-panel" class="login-panel">
+    <div class="login-card">
+      <h2>游客进入</h2>
+      <p class="login-hint">输入昵称即可参与论坛交流</p>
+      <input id="login-name" type="text" placeholder="昵称（最多20字）" maxlength="20" />
+      <select id="login-gender">
+        <option value="保密">保密</option>
+        <option value="男">男</option>
+        <option value="女">女</option>
+      </select>
+      <button id="login-btn" class="btn-primary">进入论坛</button>
+    </div>
+  </div>
+
+  <main id="app" class="app hidden">
+    <nav class="topic-tabs">
+      <button class="tab active" data-topic="">全部</button>
+      <button class="tab" data-topic="carpool">🚗 拼车交流</button>
+      <button class="tab" data-topic="life">🏫 校园生活</button>
+      <button class="tab" data-topic="market">🛒 闲置交易</button>
+      <button class="tab" data-topic="activity">🎫 活动组队</button>
+      <button class="tab" data-topic="study">📚 学习交流</button>
+      <button class="tab" data-topic="lost_found">🔍 失物招领</button>
+    </nav>
+
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <button id="new-post-btn" class="btn-primary">✏ 发帖</button>
+        <button id="new-team-post-btn" class="btn-team">🚗 发布队伍</button>
+      </div>
+      <span id="post-count" class="post-count"></span>
+    </div>
+
+    <div id="post-list" class="post-list"></div>
+    <div id="empty-tip" class="empty-tip hidden">暂无帖子，快来发第一帖吧</div>
+  </main>
+
+  <div id="editor-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-card">
+      <h2>发布帖子</h2>
+      <label>标题</label>
+      <input id="edit-title" type="text" placeholder="帖子标题（最多50字）" maxlength="50" />
+      <label>分类</label>
+      <select id="edit-topic">
+        <option value="carpool">🚗 拼车交流</option>
+        <option value="life" selected>🏫 校园生活</option>
+        <option value="market">🛒 闲置交易</option>
+        <option value="activity">🎫 活动组队</option>
+        <option value="study">📚 学习交流</option>
+        <option value="lost_found">🔍 失物招领</option>
+      </select>
+      <label>内容</label>
+      <textarea id="edit-content" placeholder="帖子内容（最多2000字）" maxlength="2000" rows="8"></textarea>
+      <div class="modal-actions">
+        <button id="edit-cancel" class="btn-ghost">取消</button>
+        <button id="edit-submit" class="btn-primary">发布</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="detail-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-card detail-card">
+      <div id="detail-body"></div>
+      <div class="modal-actions">
+        <button id="detail-close" class="btn-ghost">关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="team-editor-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-card">
+      <h2>发布队伍帖</h2>
+      <label>选择队伍</label>
+      <select id="team-select"></select>
+      <label>帖子标题</label>
+      <input id="team-edit-title" type="text" placeholder="帖子标题（最多50字）" maxlength="50" />
+      <label>帖子内容</label>
+      <textarea id="team-edit-content" placeholder="描述你的队伍（最多2000字）" maxlength="2000" rows="6"></textarea>
+      <div id="team-edit-msg" class="form-msg"></div>
+      <div class="modal-actions">
+        <button id="team-edit-cancel" class="btn-ghost">取消</button>
+        <button id="team-edit-submit" class="btn-primary">发布</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/forum.js"></script>
+</body>
+</html>

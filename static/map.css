@@ -1,0 +1,463 @@
+:root {
+  --white: #ffffff;
+  --green-100: #e6f7ec;
+  --green-200: #c8edd6;
+  --green-500: #3fb27f;
+  --green-700: #2a7d5c;
+  --yellow-100: #fff6d6;
+  --yellow-300: #ffe08a;
+  --yellow-400: #ffd166;
+  --blue-100: #e5f2ff;
+  --blue-200: #c6e4ff;
+  --blue-400: #74b9f0;
+  --blue-500: #3f9de0;
+  --blue-700: #2470a8;
+  --ink: #24404f;
+  --ink-soft: #5d7684;
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+h2, h3, p, ul, ol, li, form, fieldset { margin: 0; padding: 0; }
+
+html, body { height: 100%; overflow: hidden; }
+
+body {
+  font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: var(--white);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.hidden { display: none !important; }
+
+/* ---- 顶栏 ---- */
+.topbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  background: var(--white);
+  border-bottom: 1px solid var(--blue-100);
+  box-shadow: 0 2px 12px rgba(60, 120, 160, .06);
+  z-index: 1000;
+}
+.back-link {
+  text-decoration: none;
+  color: var(--blue-700);
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity .2s;
+}
+.back-link:hover { opacity: .7; }
+.topbar-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  flex: 1;
+  text-align: center;
+}
+.user-badge {
+  font-size: 13px;
+  color: var(--white);
+  background: var(--green-500);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.logout-btn {
+  font-size: 13px;
+  color: var(--ink-soft);
+  background: var(--blue-100);
+  border: none;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s;
+}
+.logout-btn:hover { background: var(--blue-200); }
+
+/* ---- 游客进入遮罩 ---- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(160deg, #eaf4ff 0%, #ffffff 42%, #f1fbf4 100%);
+}
+.guest-card {
+  background: var(--white);
+  border-radius: 24px;
+  padding: 40px 36px;
+  width: 380px;
+  max-width: 90vw;
+  box-shadow: 0 20px 60px rgba(60, 120, 160, .15);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.guest-card h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--ink);
+}
+.guest-hint {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+#nickname-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid var(--blue-100);
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  color: var(--ink);
+  outline: none;
+  transition: border-color .2s;
+}
+#nickname-input:focus { border-color: var(--blue-400); }
+
+.gender-pick {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gender-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.gender-btns {
+  display: flex;
+  gap: 8px;
+}
+.gender-btn {
+  padding: 6px 18px;
+  border: 2px solid var(--blue-100);
+  border-radius: 20px;
+  background: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all .2s;
+}
+.gender-btn.active {
+  background: var(--blue-500);
+  border-color: var(--blue-500);
+  color: var(--white);
+}
+
+/* ---- 按钮 ---- */
+.btn-primary {
+  padding: 12px 24px;
+  background: var(--green-500);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s;
+}
+.btn-primary:hover { background: var(--green-700); }
+.btn-secondary {
+  padding: 12px 24px;
+  background: var(--blue-100);
+  color: var(--ink-soft);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s;
+}
+.btn-secondary:hover { background: var(--blue-200); }
+
+.msg {
+  font-size: 13px;
+  min-height: 18px;
+  color: var(--green-700);
+}
+.msg.err { color: #e74c3c; }
+
+/* ---- 地图布局 ---- */
+.map-layout {
+  display: flex;
+  height: calc(100vh - 56px);
+}
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  border-right: 1px solid var(--blue-100);
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.panel {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(60, 120, 160, .06);
+}
+.panel-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--green-100);
+}
+
+.campus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.campus-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background .2s;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.campus-item:hover { background: var(--blue-100); }
+.campus-item.active {
+  background: var(--green-100);
+  color: var(--green-700);
+}
+.campus-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--blue-400);
+  flex-shrink: 0;
+}
+.campus-item.active .campus-dot { background: var(--green-500); }
+
+.gate-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid var(--blue-100);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  color: var(--ink);
+  outline: none;
+  cursor: pointer;
+  background: var(--white);
+}
+.gate-select:focus { border-color: var(--blue-400); }
+
+.trip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.empty-hint {
+  font-size: 13px;
+  color: var(--ink-soft);
+  text-align: center;
+  padding: 12px 0;
+}
+.trip-item {
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  background: var(--blue-100);
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+}
+.trip-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(60, 120, 160, .12);
+}
+.trip-item .ti-dest {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.trip-item .ti-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+.trip-item .ti-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+.ti-badge.open { background: var(--green-200); color: var(--green-700); }
+.ti-badge.full { background: var(--yellow-100); color: #b8860b; }
+.ti-badge.departed { background: var(--blue-200); color: var(--blue-700); }
+
+/* ---- 地图容器 ---- */
+.map-container {
+  flex: 1;
+  height: 100%;
+}
+.map-container.leaflet-container { font: inherit; }
+
+.poi-marker { background: transparent; border: none; }
+
+/* Leaflet 标记弹窗 */
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius-sm);
+  box-shadow: 0 8px 24px rgba(60, 120, 160, .15);
+}
+.popup-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.popup-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.popup-btns {
+  display: flex;
+  gap: 8px;
+}
+.popup-btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+.popup-btn:hover { opacity: .85; }
+.popup-btn.create { background: var(--green-500); color: var(--white); }
+.popup-btn.join { background: var(--blue-500); color: var(--white); }
+
+/* ---- 模态框 ---- */
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(36, 64, 79, .35);
+  backdrop-filter: blur(4px);
+}
+.modal-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 32px 28px;
+  width: 420px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 64px rgba(36, 64, 79, .2);
+}
+.modal-card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 20px;
+}
+.modal-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.modal-row > label {
+  width: 80px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  flex-shrink: 0;
+}
+.modal-value {
+  font-size: 14px;
+  color: var(--ink);
+  font-weight: 600;
+  flex: 1;
+}
+.modal-row input,
+.modal-row select {
+  flex: 1;
+  padding: 8px 12px;
+  border: 2px solid var(--blue-100);
+  border-radius: 8px;
+  font-size: 14px;
+  color: var(--ink);
+  outline: none;
+  background: var(--white);
+}
+.modal-row input:focus,
+.modal-row select:focus { border-color: var(--blue-400); }
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.join-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.join-info .ji-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.join-info .ji-label { color: var(--ink-soft); font-weight: 600; }
+.join-info .ji-value { color: var(--ink); font-weight: 600; }
+.join-info .ji-join-btn {
+  margin-top: 8px;
+  padding: 10px 20px;
+  background: var(--blue-500);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+.join-info .ji-join-btn:hover { background: var(--blue-700); }
+.join-info .ji-join-btn:disabled {
+  background: var(--ink-soft);
+  cursor: not-allowed;
+}
+
+/* ---- 响应式 ---- */
+@media (max-width: 768px) {
+  .sidebar { width: 240px; }
+  .topbar-title { font-size: 15px; }
+}
+@media (max-width: 600px) {
+  .map-layout { flex-direction: column; }
+  .sidebar {
+    width: 100%;
+    height: 200px;
+    border-right: none;
+    border-bottom: 1px solid var(--blue-100);
+  }
+  .map-container { height: calc(100vh - 56px - 200px); }
+}

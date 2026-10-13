@@ -1,0 +1,170 @@
+:root {
+  --white: #ffffff;
+  --green-100: #e6f7ec;
+  --green-200: #c8edd6;
+  --green-400: #6fcb9f;
+  --green-500: #3fb27f;
+  --green-700: #2a7d5c;
+  --yellow-100: #fff6d6;
+  --yellow-300: #ffe08a;
+  --yellow-400: #ffd166;
+  --blue-100: #e5f2ff;
+  --blue-200: #c6e4ff;
+  --blue-400: #74b9f0;
+  --blue-500: #3f9de0;
+  --blue-700: #2470a8;
+  --ink: #24404f;
+  --ink-soft: #5d7684;
+  --radius: 22px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body {
+  font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background: linear-gradient(160deg, #eaf4ff 0%, #ffffff 42%, #f1fbf4 100%);
+  color: var(--ink);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 柔和漂浮背景色块 */
+.bg-deco { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: .55;
+}
+.b1 { width: 420px; height: 420px; background: #c6e4ff; top: -120px; left: -100px; }
+.b2 { width: 360px; height: 360px; background: #ffe08a; bottom: -120px; right: -80px; opacity: .45; }
+.b3 { width: 300px; height: 300px; background: #c8edd6; bottom: 8%; left: 12%; opacity: .5; }
+.b4 { width: 260px; height: 260px; background: #d8ecff; top: 12%; right: 14%; opacity: .5; }
+
+.hero {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.eyebrow {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .35em;
+  color: var(--green-700);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: clamp(34px, 6vw, 56px);
+  font-weight: 800;
+  letter-spacing: .5px;
+  color: var(--ink);
+  line-height: 1.15;
+}
+
+.subtitle {
+  margin-top: 14px;
+  font-size: clamp(15px, 2.2vw, 18px);
+  color: var(--ink-soft);
+}
+
+.entries {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 320px));
+  gap: 26px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  text-align: left;
+  padding: 30px 28px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  background: rgba(255, 255, 255, .82);
+  border: 1px solid rgba(255, 255, 255, .9);
+  box-shadow: 0 14px 40px rgba(60, 120, 160, .12);
+  backdrop-filter: blur(8px);
+  transition: transform .22s ease, box-shadow .22s ease;
+  position: relative;
+  overflow: hidden;
+}
+.entry::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  opacity: 0;
+  transition: opacity .22s ease;
+}
+.entry-forum::after { background: linear-gradient(140deg, rgba(111, 203, 159, .16), rgba(255, 224, 138, .1)); }
+.entry-map::after { background: linear-gradient(140deg, rgba(116, 185, 240, .18), rgba(198, 230, 255, .08)); }
+
+.entry:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 56px rgba(60, 120, 160, .22);
+}
+.entry:hover::after { opacity: 1; }
+
+.entry-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+}
+.entry-icon svg { width: 30px; height: 30px; }
+.entry-forum .entry-icon { background: var(--green-200); color: var(--green-700); }
+.entry-map .entry-icon { background: var(--blue-200); color: var(--blue-700); }
+
+.entry-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.entry-desc {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+.entry-arrow {
+  position: absolute;
+  top: 28px;
+  right: 26px;
+  font-size: 22px;
+  color: var(--ink-soft);
+  opacity: .5;
+  transition: transform .22s ease, opacity .22s ease;
+}
+.entry:hover .entry-arrow { transform: translateX(4px); opacity: 1; }
+
+/* 响应式 */
+@media (max-width: 640px) {
+  .entries {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+    gap: 18px;
+  }
+  .entry {
+    padding: 24px 22px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .entry-name { font-size: 19px; }
+  .entry-desc { font-size: 13px; }
+}

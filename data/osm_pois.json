@@ -1,0 +1,5242 @@
+[
+  {
+    "osm_type": "node",
+    "osm_id": 6448648429,
+    "name": "下吴",
+    "lat": 25.915526,
+    "lon": 119.578087,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "下吴",
+      "name:en": "Xiawu",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462739"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 6448648430,
+    "name": "万寿",
+    "lat": 25.902665,
+    "lon": 119.599036,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "万寿",
+      "name:en": "Wanshou",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462742",
+      "wikipedia": "zh:万寿站 (福州)"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 6448648431,
+    "name": "壶井",
+    "lat": 25.908582,
+    "lon": 119.589415,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "壶井",
+      "name:en": "Hujing",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462740"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 6448648432,
+    "name": "莲花",
+    "lat": 25.922796,
+    "lon": 119.565937,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "莲花",
+      "name:en": "Lianhua",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462738"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9394575972,
+    "name": "滨海中央商务区",
+    "lat": 25.887264,
+    "lon": 119.605244,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "滨海中央商务区",
+      "name:en": "Binhai CBD",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9394575973,
+    "name": "沙尾",
+    "lat": 25.882123,
+    "lon": 119.602847,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "沙尾",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9394575974,
+    "name": "金滨路",
+    "lat": 25.874395,
+    "lon": 119.600124,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "金滨路",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9394575975,
+    "name": "十八孔闸",
+    "lat": 25.868405,
+    "lon": 119.598457,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "十八孔闸",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9521852852,
+    "name": "莲花山",
+    "lat": 25.917386,
+    "lon": 119.552542,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "莲花山",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9521852853,
+    "name": "滨海西",
+    "lat": 25.910725,
+    "lon": 119.564812,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "滨海西",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9521852854,
+    "name": "大数据",
+    "lat": 25.894786,
+    "lon": 119.59333,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "name": "大数据",
+      "name:en": "Dashuju",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849228,
+    "name": "东湖万豪酒店",
+    "lat": 25.874972,
+    "lon": 119.592078,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "东湖万豪酒店",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849230,
+    "name": "大数据产业园二期(北)",
+    "lat": 25.884004,
+    "lon": 119.586805,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "大数据产业园二期(北)",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849233,
+    "name": "博思软件",
+    "lat": 25.866603,
+    "lon": 119.598917,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "博思软件",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849239,
+    "name": "大东湖悦海湾",
+    "lat": 25.871095,
+    "lon": 119.594191,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "大东湖悦海湾",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849241,
+    "name": "大东湖悦海湾",
+    "lat": 25.870411,
+    "lon": 119.594497,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "大东湖悦海湾",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849243,
+    "name": "东湖数字小镇",
+    "lat": 25.879402,
+    "lon": 119.589782,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "东湖数字小镇",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849244,
+    "name": "",
+    "lat": 25.876389,
+    "lon": 119.591697,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849247,
+    "name": "大数据产业园二期(北)",
+    "lat": 25.88259,
+    "lon": 119.587443,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "大数据产业园二期(北)",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849248,
+    "name": "博思软件",
+    "lat": 25.867239,
+    "lon": 119.596963,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "博思软件",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9951849249,
+    "name": "东湖数字小镇",
+    "lat": 25.877687,
+    "lon": 119.590624,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "东湖数字小镇",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13235935555,
+    "name": "水酷休闲农庄",
+    "lat": 25.901375,
+    "lon": 119.52912,
+    "category": "店铺",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "restaurant",
+      "name": "水酷休闲农庄"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023444,
+    "name": "",
+    "lat": 25.850981,
+    "lon": 119.561059,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023445,
+    "name": "",
+    "lat": 25.851263,
+    "lon": 119.561445,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023446,
+    "name": "",
+    "lat": 25.847629,
+    "lon": 119.561429,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023447,
+    "name": "",
+    "lat": 25.847857,
+    "lon": 119.561822,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023451,
+    "name": "",
+    "lat": 25.837983,
+    "lon": 119.556879,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023452,
+    "name": "",
+    "lat": 25.838953,
+    "lon": 119.555503,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023490,
+    "name": "",
+    "lat": 25.842879,
+    "lon": 119.561954,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023491,
+    "name": "",
+    "lat": 25.84255,
+    "lon": 119.562394,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593023493,
+    "name": "",
+    "lat": 25.838769,
+    "lon": 119.562835,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087658,
+    "name": "",
+    "lat": 25.857347,
+    "lon": 119.563097,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087659,
+    "name": "",
+    "lat": 25.858355,
+    "lon": 119.563125,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087673,
+    "name": "",
+    "lat": 25.868383,
+    "lon": 119.567959,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087675,
+    "name": "",
+    "lat": 25.86302,
+    "lon": 119.565822,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087686,
+    "name": "",
+    "lat": 25.875629,
+    "lon": 119.574311,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087687,
+    "name": "",
+    "lat": 25.875531,
+    "lon": 119.574788,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087693,
+    "name": "",
+    "lat": 25.886385,
+    "lon": 119.586615,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087694,
+    "name": "",
+    "lat": 25.886067,
+    "lon": 119.586875,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087696,
+    "name": "",
+    "lat": 25.888446,
+    "lon": 119.588602,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087697,
+    "name": "",
+    "lat": 25.887894,
+    "lon": 119.588673,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087698,
+    "name": "",
+    "lat": 25.890382,
+    "lon": 119.590496,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593087699,
+    "name": "",
+    "lat": 25.891575,
+    "lon": 119.590813,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111507,
+    "name": "",
+    "lat": 25.90216,
+    "lon": 119.593022,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111519,
+    "name": "",
+    "lat": 25.908634,
+    "lon": 119.561829,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111526,
+    "name": "",
+    "lat": 25.906691,
+    "lon": 119.564778,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111527,
+    "name": "",
+    "lat": 25.906851,
+    "lon": 119.563966,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111528,
+    "name": "",
+    "lat": 25.904894,
+    "lon": 119.56693,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593111532,
+    "name": "",
+    "lat": 25.903741,
+    "lon": 119.569249,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593192797,
+    "name": "",
+    "lat": 25.895501,
+    "lon": 119.595428,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593192798,
+    "name": "",
+    "lat": 25.894289,
+    "lon": 119.597835,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593192799,
+    "name": "",
+    "lat": 25.892963,
+    "lon": 119.599455,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204719,
+    "name": "",
+    "lat": 25.896766,
+    "lon": 119.564695,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204723,
+    "name": "",
+    "lat": 25.897079,
+    "lon": 119.563593,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204725,
+    "name": "",
+    "lat": 25.90116,
+    "lon": 119.558261,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204745,
+    "name": "",
+    "lat": 25.895876,
+    "lon": 119.561312,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204746,
+    "name": "",
+    "lat": 25.89464,
+    "lon": 119.559962,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204750,
+    "name": "",
+    "lat": 25.890851,
+    "lon": 119.557054,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204754,
+    "name": "",
+    "lat": 25.892942,
+    "lon": 119.559074,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204763,
+    "name": "",
+    "lat": 25.896913,
+    "lon": 119.561708,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204768,
+    "name": "",
+    "lat": 25.898835,
+    "lon": 119.563558,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204777,
+    "name": "",
+    "lat": 25.89999,
+    "lon": 119.563835,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204785,
+    "name": "",
+    "lat": 25.902127,
+    "lon": 119.564945,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204791,
+    "name": "",
+    "lat": 25.90469,
+    "lon": 119.56533,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204803,
+    "name": "",
+    "lat": 25.903995,
+    "lon": 119.559625,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204806,
+    "name": "",
+    "lat": 25.902455,
+    "lon": 119.561844,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204810,
+    "name": "",
+    "lat": 25.900319,
+    "lon": 119.565375,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204815,
+    "name": "",
+    "lat": 25.899642,
+    "lon": 119.566913,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204823,
+    "name": "",
+    "lat": 25.898478,
+    "lon": 119.5684,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204830,
+    "name": "",
+    "lat": 25.897796,
+    "lon": 119.569936,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593204835,
+    "name": "",
+    "lat": 25.895939,
+    "lon": 119.572531,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213381,
+    "name": "",
+    "lat": 25.88738,
+    "lon": 119.558983,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213382,
+    "name": "",
+    "lat": 25.889261,
+    "lon": 119.560196,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213383,
+    "name": "",
+    "lat": 25.891519,
+    "lon": 119.56218,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213384,
+    "name": "",
+    "lat": 25.89401,
+    "lon": 119.564022,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213385,
+    "name": "",
+    "lat": 25.892732,
+    "lon": 119.562814,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213386,
+    "name": "",
+    "lat": 25.884037,
+    "lon": 119.556608,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213387,
+    "name": "",
+    "lat": 25.883861,
+    "lon": 119.556781,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593213389,
+    "name": "",
+    "lat": 25.886102,
+    "lon": 119.557708,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233502,
+    "name": "",
+    "lat": 25.895383,
+    "lon": 119.564779,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233505,
+    "name": "",
+    "lat": 25.896882,
+    "lon": 119.566163,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233508,
+    "name": "",
+    "lat": 25.89843,
+    "lon": 119.56704,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233512,
+    "name": "",
+    "lat": 25.89973,
+    "lon": 119.568283,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233514,
+    "name": "",
+    "lat": 25.901989,
+    "lon": 119.569835,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233519,
+    "name": "",
+    "lat": 25.901846,
+    "lon": 119.572118,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233522,
+    "name": "",
+    "lat": 25.893033,
+    "lon": 119.571353,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233523,
+    "name": "",
+    "lat": 25.894658,
+    "lon": 119.57253,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233526,
+    "name": "",
+    "lat": 25.89589,
+    "lon": 119.573918,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13593233529,
+    "name": "",
+    "lat": 25.899088,
+    "lon": 119.576448,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13594381025,
+    "name": "",
+    "lat": 25.900261,
+    "lon": 119.575514,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13594381026,
+    "name": "",
+    "lat": 25.900252,
+    "lon": 119.574298,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13851241644,
+    "name": "",
+    "lat": 25.870834,
+    "lon": 119.573923,
+    "category": "店铺",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "shop": "convenience"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13851241649,
+    "name": "",
+    "lat": 25.841934,
+    "lon": 119.544657,
+    "category": "店铺",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "chinese"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 511252849,
+    "name": "",
+    "lat": 25.859267,
+    "lon": 119.552782,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "building": "train_station",
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 980043616,
+    "name": "赛德文学校",
+    "lat": 25.870331,
+    "lon": 119.600308,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "school",
+      "name": "赛德文学校",
+      "name:zh": "赛德文学校",
+      "name:zh-Hans": "赛德文学校",
+      "name:zh-Hant": "賽德文學校"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1006691172,
+    "name": "福州市长乐区古槐中心小学",
+    "lat": 25.882775,
+    "lon": 119.53508,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "school",
+      "name": "福州市长乐区古槐中心小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1021874431,
+    "name": "",
+    "lat": 25.859316,
+    "lon": 119.553037,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "area": "yes",
+      "public_transport": "platform",
+      "railway": "platform",
+      "train": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1021874432,
+    "name": "",
+    "lat": 25.859318,
+    "lon": 119.553373,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "area": "yes",
+      "public_transport": "platform",
+      "railway": "platform",
+      "train": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1084203488,
+    "name": "2",
+    "lat": 25.862484,
+    "lon": 119.525067,
+    "category": "公园",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "leisure": "park",
+      "name": "2"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1086115368,
+    "name": "福建省长乐师范学校附属小学滨海校区",
+    "lat": 25.863901,
+    "lon": 119.595575,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "school",
+      "name": "福建省长乐师范学校附属小学滨海校区"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1328177898,
+    "name": "天津大学福州国际联合学院",
+    "lat": 25.893326,
+    "lon": 119.56132,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "university",
+      "name": "天津大学福州国际联合学院",
+      "name:en": "International Joint Institute of Tianjin University, Fuzhou",
+      "name:zh-Hans": "天津大学福州国际联合学院",
+      "name:zh-Hant": "天津大學福州國際聯合學院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1332137863,
+    "name": "滨海新城东湖湿地公园",
+    "lat": 25.846338,
+    "lon": 119.597331,
+    "category": "公园",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "leisure": "park",
+      "name": "滨海新城东湖湿地公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1332846886,
+    "name": "福建师范大学附属滨海小学",
+    "lat": 25.877151,
+    "lon": 119.601903,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "school",
+      "name": "福建师范大学附属滨海小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1363480866,
+    "name": "阳光学院滨海校区",
+    "lat": 25.901301,
+    "lon": 119.560581,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "university",
+      "name": "阳光学院滨海校区"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1377363486,
+    "name": "福州外语外贸学院滨海校区",
+    "lat": 25.880354,
+    "lon": 119.556693,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "福州外语外贸学院滨海校区",
+      "start_date": "2024-09"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1442736570,
+    "name": "长乐第三中学",
+    "lat": 25.884318,
+    "lon": 119.53618,
+    "category": "学校",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐第三中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1442736575,
+    "name": "新宁公园",
+    "lat": 25.882347,
+    "lon": 119.541201,
+    "category": "公园",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "leisure": "park",
+      "name": "新宁公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1446230278,
+    "name": "福州市长乐区古槐镇中心卫生院",
+    "lat": 25.893801,
+    "lon": 119.541512,
+    "category": "医院",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "福州市长乐区古槐镇中心卫生院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1550290206,
+    "name": "",
+    "lat": 25.887485,
+    "lon": 119.58627,
+    "category": "公园",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1550290233,
+    "name": "海峡青少年活动中心儿童乐园",
+    "lat": 25.894656,
+    "lon": 119.591611,
+    "category": "公园",
+    "campus": "福州外语外贸学院滨海校区",
+    "tags": {
+      "leisure": "park",
+      "name": "海峡青少年活动中心儿童乐园"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 4238807785,
+    "name": "长乐",
+    "lat": 25.927061,
+    "lon": 119.480664,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "alt_name": "长乐站;长乐火车站;Changle Railway Station",
+      "name": "长乐",
+      "name:en": "Changle",
+      "name:zh": "长乐",
+      "public_transport": "station",
+      "railway": "station",
+      "train": "yes"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 4345238083,
+    "name": "航城",
+    "lat": 25.954366,
+    "lon": 119.485647,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "航城",
+      "name:en": "Hangcheng",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462025",
+      "wikipedia": "zh:航城站"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 6448648433,
+    "name": "鹤上",
+    "lat": 25.942279,
+    "lon": 119.535122,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "鹤上",
+      "name:en": "Heshang",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462736"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 6448648435,
+    "name": "营前",
+    "lat": 25.959649,
+    "lon": 119.469562,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "营前",
+      "name:en": "Yingqian",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q106353760",
+      "wikipedia": "zh:营前站"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9064066522,
+    "name": "吴航",
+    "lat": 25.953947,
+    "lon": 119.524721,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "location": "underground",
+      "name": "吴航",
+      "name:en": "Wuhang",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462735"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9066172991,
+    "name": "沃尔玛",
+    "lat": 25.959121,
+    "lon": 119.495487,
+    "category": "商场",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "brand": "沃尔玛",
+      "brand:en": "Walmart",
+      "brand:wikidata": "Q483551",
+      "brand:wikipedia": "zh:沃尔玛",
+      "brand:zh": "沃尔玛",
+      "level": "1;2",
+      "name": "沃尔玛",
+      "name:en": "Walmart",
+      "name:zh": "沃尔玛",
+      "shop": "supermarket"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9223105725,
+    "name": "下橹桥公园",
+    "lat": 25.965831,
+    "lon": 119.519467,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "下橹桥公园"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9409868660,
+    "name": "沙京",
+    "lat": 25.933963,
+    "lon": 119.542023,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "沙京",
+      "name:en": "Shajing",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462737"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9409868663,
+    "name": "十洋",
+    "lat": 25.961321,
+    "lon": 119.511081,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "十洋",
+      "name:en": "Shiyang",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462734"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9409868664,
+    "name": "郑和",
+    "lat": 25.961201,
+    "lon": 119.497956,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "郑和",
+      "name:en": "Zhenghe",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q113462026",
+      "wikipedia": "zh:郑和站"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 9521852851,
+    "name": "首占",
+    "lat": 25.926863,
+    "lon": 119.480639,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "name": "首占",
+      "name:en": "Shouzhan",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes",
+      "wikidata": "Q133519927"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 11464474391,
+    "name": "",
+    "lat": 25.954964,
+    "lon": 119.4703,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 11464474392,
+    "name": "",
+    "lat": 25.954721,
+    "lon": 119.470427,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 11464474394,
+    "name": "",
+    "lat": 25.957964,
+    "lon": 119.468157,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 11464474395,
+    "name": "",
+    "lat": 25.957726,
+    "lon": 119.467839,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12162954466,
+    "name": "中国工商银行",
+    "lat": 25.960884,
+    "lon": 119.508954,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国工商银行",
+      "brand:en": "Industrial and Commercial Bank of China",
+      "brand:wikidata": "Q26463",
+      "brand:zh": "中国工商银行",
+      "name": "中国工商银行",
+      "name:en": "Industrial and Commercial Bank of China",
+      "name:zh": "中国工商银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12162954467,
+    "name": "上海浦东发展银行",
+    "lat": 25.96747,
+    "lon": 119.512827,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "上海浦东发展银行",
+      "brand:en": "Shanghai Pudong Development Bank",
+      "brand:wikidata": "Q1479076",
+      "brand:zh": "上海浦东发展银行",
+      "name": "上海浦东发展银行",
+      "name:en": "Shanghai Pudong Development Bank",
+      "name:zh": "上海浦东发展银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12162954468,
+    "name": "中国建设银行",
+    "lat": 25.967497,
+    "lon": 119.512733,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国建设银行",
+      "brand:en": "China Construction Bank",
+      "brand:wikidata": "Q26299",
+      "brand:zh": "中国建设银行",
+      "name": "中国建设银行",
+      "name:en": "China Construction Bank",
+      "name:zh": "中国建设银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12162954469,
+    "name": "中国工商银行",
+    "lat": 25.967504,
+    "lon": 119.512621,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国工商银行",
+      "brand:en": "Industrial and Commercial Bank of China",
+      "brand:wikidata": "Q26463",
+      "brand:zh": "中国工商银行",
+      "name": "中国工商银行",
+      "name:en": "Industrial and Commercial Bank of China",
+      "name:zh": "中国工商银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12162954470,
+    "name": "中国银行",
+    "lat": 25.967277,
+    "lon": 119.512347,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国银行",
+      "brand:en": "Bank of China",
+      "brand:wikidata": "Q790068",
+      "brand:zh": "中国银行",
+      "name": "中国银行",
+      "name:en": "Bank of China",
+      "name:zh": "中国银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12178243009,
+    "name": "中国光大银行",
+    "lat": 25.957601,
+    "lon": 119.50093,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "brand": "中国光大银行",
+      "brand:en": "China Everbright Bank",
+      "brand:wikidata": "Q10873167",
+      "brand:zh": "中国光大银行",
+      "name": "中国光大银行",
+      "name:en": "China Everbright Bank",
+      "name:zh": "中国光大银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12178287531,
+    "name": "中国银行",
+    "lat": 25.961193,
+    "lon": 119.518429,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国银行",
+      "brand:en": "Bank of China",
+      "brand:wikidata": "Q790068",
+      "brand:zh": "中国银行",
+      "name": "中国银行",
+      "name:en": "Bank of China",
+      "name:zh": "中国银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12178287532,
+    "name": "中国农业银行",
+    "lat": 25.961117,
+    "lon": 119.518591,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国农业银行",
+      "brand:en": "Agricultural Bank of China",
+      "brand:wikidata": "Q26298",
+      "brand:zh": "中国农业银行",
+      "name": "中国农业银行",
+      "name:en": "Agricultural Bank of China",
+      "name:zh": "中国农业银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12178287534,
+    "name": "中国邮政",
+    "lat": 25.961291,
+    "lon": 119.51677,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "post_office",
+      "brand": "中国邮政",
+      "brand:en": "China Post",
+      "brand:wikidata": "Q1066476",
+      "brand:zh": "中国邮政",
+      "name": "中国邮政",
+      "name:en": "China Post",
+      "name:zh": "中国邮政"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12181729199,
+    "name": "",
+    "lat": 25.952849,
+    "lon": 119.508604,
+    "category": "店铺",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "japanese"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12244093322,
+    "name": "齐身苑",
+    "lat": 25.96164,
+    "lon": 119.492934,
+    "category": "店铺",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "restaurant",
+      "cuisine": "chinese",
+      "name": "齐身苑"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12245500111,
+    "name": "永辉超市",
+    "lat": 25.961095,
+    "lon": 119.510244,
+    "category": "商场",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "brand": "永辉超市",
+      "brand:en": "Yonghui Superstores",
+      "brand:wikidata": "Q17028520",
+      "brand:zh": "永辉超市",
+      "name": "永辉超市",
+      "name:en": "Yonghui Superstores",
+      "name:zh": "永辉超市",
+      "shop": "supermarket"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12553350434,
+    "name": "长乐农商银行",
+    "lat": 25.961029,
+    "lon": 119.518774,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "name": "长乐农商银行"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 12688972492,
+    "name": "城关派出所",
+    "lat": 25.956569,
+    "lon": 119.524202,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "police",
+      "name": "城关派出所"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13204671438,
+    "name": "夏威学校",
+    "lat": 25.955858,
+    "lon": 119.513965,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "夏威学校"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13521593066,
+    "name": "",
+    "lat": 25.92804,
+    "lon": 119.484842,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13521593083,
+    "name": "地铁首占站（长乐火车站）",
+    "lat": 25.928153,
+    "lon": 119.481807,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "地铁首占站（长乐火车站）",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13595388122,
+    "name": "泮野公交首末站（上客点）",
+    "lat": 25.966004,
+    "lon": 119.496379,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "泮野公交首末站（上客点）",
+      "name:en": "Panye Bus Terminal （P/U only)",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13602360191,
+    "name": "",
+    "lat": 25.947094,
+    "lon": 119.468081,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13602360192,
+    "name": "",
+    "lat": 25.946456,
+    "lon": 119.46996,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13602406983,
+    "name": "",
+    "lat": 25.947951,
+    "lon": 119.461837,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13602406984,
+    "name": "",
+    "lat": 25.947652,
+    "lon": 119.461139,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13602406989,
+    "name": "",
+    "lat": 25.95115,
+    "lon": 119.464732,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620237286,
+    "name": "中南樾府",
+    "lat": 25.93258,
+    "lon": 119.494197,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "中南樾府",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620237287,
+    "name": "中南樾府",
+    "lat": 25.931394,
+    "lon": 119.49393,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "中南樾府",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620237291,
+    "name": "龙桂华府",
+    "lat": 25.936176,
+    "lon": 119.495315,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙桂华府",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620237295,
+    "name": "长乐区人民医院",
+    "lat": 25.939386,
+    "lon": 119.499919,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐区人民医院",
+      "name:en": "Changle District People's Hospital",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620276061,
+    "name": "长乐一中首占校区",
+    "lat": 25.930015,
+    "lon": 119.488372,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐一中首占校区",
+      "name:en": "Changle No.1 Middle School Shouzhan Campus",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620276081,
+    "name": "",
+    "lat": 25.928265,
+    "lon": 119.488249,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620276095,
+    "name": "",
+    "lat": 25.927762,
+    "lon": 119.490206,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296014,
+    "name": "首占上洋",
+    "lat": 25.940162,
+    "lon": 119.483383,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占上洋",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296015,
+    "name": "首占上洋",
+    "lat": 25.940644,
+    "lon": 119.482135,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占上洋",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296016,
+    "name": "振铎路招呼站",
+    "lat": 25.938036,
+    "lon": 119.486561,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "振铎路招呼站",
+      "name:en": "Zhenduo Rd Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296017,
+    "name": "振铎路招呼站",
+    "lat": 25.938118,
+    "lon": 119.486846,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "振铎路招呼站",
+      "name:en": "Zhenduo Rd Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296018,
+    "name": "长乐人民公园",
+    "lat": 25.93637,
+    "lon": 119.489394,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐人民公园",
+      "name:en": "Changle People's Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620296019,
+    "name": "长乐人民公园",
+    "lat": 25.936381,
+    "lon": 119.489789,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐人民公园",
+      "name:en": "Changle People's Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13620356425,
+    "name": "",
+    "lat": 25.934506,
+    "lon": 119.493692,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621806951,
+    "name": "",
+    "lat": 25.933903,
+    "lon": 119.489245,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621806952,
+    "name": "",
+    "lat": 25.933836,
+    "lon": 119.489489,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621806976,
+    "name": "永荣广场",
+    "lat": 25.945666,
+    "lon": 119.490056,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "永荣广场",
+      "name:en": "Yongrong Plaza",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621806983,
+    "name": "永荣广场",
+    "lat": 25.94554,
+    "lon": 119.490374,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "永荣广场",
+      "name:en": "Yongrong Plaza",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876046,
+    "name": "泰禾红誉",
+    "lat": 25.945456,
+    "lon": 119.481523,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "泰禾红誉",
+      "name:en": "Taihoe RED Honor R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876047,
+    "name": "泰禾红誉",
+    "lat": 25.945617,
+    "lon": 119.481725,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "泰禾红誉",
+      "name:en": "Taihoe RED Honor R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876051,
+    "name": "",
+    "lat": 25.954886,
+    "lon": 119.482522,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876052,
+    "name": "",
+    "lat": 25.954459,
+    "lon": 119.482592,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876053,
+    "name": "",
+    "lat": 25.955798,
+    "lon": 119.480345,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876054,
+    "name": "",
+    "lat": 25.956852,
+    "lon": 119.479766,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876056,
+    "name": "",
+    "lat": 25.959357,
+    "lon": 119.476351,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876057,
+    "name": "",
+    "lat": 25.959469,
+    "lon": 119.476,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876064,
+    "name": "",
+    "lat": 25.955439,
+    "lon": 119.487952,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876065,
+    "name": "",
+    "lat": 25.955164,
+    "lon": 119.488056,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876066,
+    "name": "",
+    "lat": 25.956382,
+    "lon": 119.492111,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876067,
+    "name": "",
+    "lat": 25.956119,
+    "lon": 119.492003,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876068,
+    "name": "",
+    "lat": 25.957848,
+    "lon": 119.498417,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13621876069,
+    "name": "",
+    "lat": 25.957571,
+    "lon": 119.498247,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886425,
+    "name": "洞头小学",
+    "lat": 25.95349,
+    "lon": 119.460916,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "洞头小学",
+      "name:en": "Dongtou Primary School",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886430,
+    "name": "洞头小学",
+    "lat": 25.95269,
+    "lon": 119.463386,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "洞头小学",
+      "name:en": "Dongtou Primary School",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886438,
+    "name": "港南路招呼站",
+    "lat": 25.951659,
+    "lon": 119.467174,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "港南路招呼站",
+      "name:en": "Gangnan Rd Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886439,
+    "name": "港南路招呼站",
+    "lat": 25.951647,
+    "lon": 119.46813,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "港南路招呼站",
+      "name:en": "Gangnan Rd Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886451,
+    "name": "三汊港大桥南",
+    "lat": 25.949695,
+    "lon": 119.468914,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "三汊港大桥南",
+      "name:en": "Sancha Bay Bridge S",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886452,
+    "name": "三汊港大桥南",
+    "lat": 25.94973,
+    "lon": 119.469367,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "三汊港大桥南",
+      "name:en": "Sancha Bay Bridge S",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886460,
+    "name": "马头双峰",
+    "lat": 25.942468,
+    "lon": 119.464131,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "马头双峰",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886481,
+    "name": "马头双峰",
+    "lat": 25.940752,
+    "lon": 119.462865,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "马头双峰",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886495,
+    "name": "首占岭头",
+    "lat": 25.936511,
+    "lon": 119.462717,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占岭头",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624886496,
+    "name": "首占岭头",
+    "lat": 25.936324,
+    "lon": 119.462653,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占岭头",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902631,
+    "name": "塘屿招呼站",
+    "lat": 25.931491,
+    "lon": 119.462269,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "塘屿招呼站",
+      "name:en": "Tangyu Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902632,
+    "name": "塘屿招呼站",
+    "lat": 25.931408,
+    "lon": 119.462252,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "塘屿招呼站",
+      "name:en": "Tangyu Flagstop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902634,
+    "name": "塘屿市场",
+    "lat": 25.931079,
+    "lon": 119.464877,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "塘屿市场",
+      "name:en": "Tangyu Market",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902635,
+    "name": "塘屿市场",
+    "lat": 25.93157,
+    "lon": 119.464896,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "塘屿市场",
+      "name:en": "Tangyu Market",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902642,
+    "name": "阳光城·翡丽湾东门",
+    "lat": 25.942819,
+    "lon": 119.476123,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "阳光城·翡丽湾东门",
+      "name:en": "YanGO Jade Bay R.Q. East Gate",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624902644,
+    "name": "阳光城·翡丽湾东门",
+    "lat": 25.942382,
+    "lon": 119.475625,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "阳光城·翡丽湾东门",
+      "name:en": "YanGO Jade Bay R.Q. East Gate",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963263,
+    "name": "龙门渡",
+    "lat": 25.949689,
+    "lon": 119.481611,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙门渡",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963267,
+    "name": "龙门渡",
+    "lat": 25.949572,
+    "lon": 119.481366,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙门渡",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963296,
+    "name": "皇庭·首占1号",
+    "lat": 25.945619,
+    "lon": 119.478476,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭·首占1号",
+      "name:en": "Royal Court Shouzhan ONE R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963298,
+    "name": "皇庭·首占1号",
+    "lat": 25.945521,
+    "lon": 119.478602,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭·首占1号",
+      "name:en": "Royal Court Shouzhan ONE R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963979,
+    "name": "",
+    "lat": 25.942134,
+    "lon": 119.488234,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963980,
+    "name": "",
+    "lat": 25.942285,
+    "lon": 119.487947,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963981,
+    "name": "",
+    "lat": 25.948765,
+    "lon": 119.491583,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963982,
+    "name": "",
+    "lat": 25.948822,
+    "lon": 119.491937,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963996,
+    "name": "皇庭名郡",
+    "lat": 25.955812,
+    "lon": 119.494509,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭名郡",
+      "name:en": "Royal Court Famous County R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624963998,
+    "name": "皇庭名郡",
+    "lat": 25.955682,
+    "lon": 119.494725,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭名郡",
+      "name:en": "Royal Court Famous County R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964072,
+    "name": "龙门渡",
+    "lat": 25.949689,
+    "lon": 119.481611,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙门渡",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964074,
+    "name": "龙门渡",
+    "lat": 25.949572,
+    "lon": 119.481366,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙门渡",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964097,
+    "name": "皇庭·首占1号",
+    "lat": 25.945619,
+    "lon": 119.478476,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭·首占1号",
+      "name:en": "Royal Court Shouzhan ONE R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964099,
+    "name": "皇庭·首占1号",
+    "lat": 25.945521,
+    "lon": 119.478602,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭·首占1号",
+      "name:en": "Royal Court Shouzhan ONE R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964441,
+    "name": "",
+    "lat": 25.939297,
+    "lon": 119.492743,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964442,
+    "name": "",
+    "lat": 25.939132,
+    "lon": 119.492923,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964443,
+    "name": "长乐公交枢纽站",
+    "lat": 25.942455,
+    "lon": 119.49349,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "长乐公交枢纽站",
+      "name:en": "Changle Public Transport Hub",
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964444,
+    "name": "长乐公交枢纽站（会堂南路）",
+    "lat": 25.942142,
+    "lon": 119.494016,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐公交枢纽站（会堂南路）",
+      "name:en": "Changle Public Transport Hub on Hall Rd S",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964445,
+    "name": "长乐公交枢纽站（会堂南路）",
+    "lat": 25.942052,
+    "lon": 119.494159,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐公交枢纽站（会堂南路）",
+      "name:en": "Changle Public Transport Hub on Hall Rd S",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964469,
+    "name": "长乐公交枢纽站（凯歌路）",
+    "lat": 25.941779,
+    "lon": 119.492809,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐公交枢纽站（凯歌路）",
+      "name:en": "Changle Public Transport Hub on Kaige Rd",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624964470,
+    "name": "长乐公交枢纽站（凯歌路）",
+    "lat": 25.941511,
+    "lon": 119.493123,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐公交枢纽站（凯歌路）",
+      "name:en": "Changle Public Transport Hub on Kaige Rd",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967535,
+    "name": "",
+    "lat": 25.942134,
+    "lon": 119.488234,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967536,
+    "name": "",
+    "lat": 25.942285,
+    "lon": 119.487947,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967537,
+    "name": "",
+    "lat": 25.948765,
+    "lon": 119.491583,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967538,
+    "name": "",
+    "lat": 25.948822,
+    "lon": 119.491937,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967542,
+    "name": "皇庭名郡",
+    "lat": 25.955812,
+    "lon": 119.494509,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭名郡",
+      "name:en": "Royal Court Famous County R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13624967543,
+    "name": "皇庭名郡",
+    "lat": 25.955682,
+    "lon": 119.494725,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "皇庭名郡",
+      "name:en": "Royal Court Famous County R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625002321,
+    "name": "",
+    "lat": 25.947007,
+    "lon": 119.483747,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625014650,
+    "name": "",
+    "lat": 25.949767,
+    "lon": 119.507262,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625014654,
+    "name": "",
+    "lat": 25.953526,
+    "lon": 119.508328,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625032925,
+    "name": "上湖",
+    "lat": 25.94265,
+    "lon": 119.502903,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "上湖",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625044379,
+    "name": "",
+    "lat": 25.961391,
+    "lon": 119.510079,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625044385,
+    "name": "",
+    "lat": 25.961379,
+    "lon": 119.505452,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625044390,
+    "name": "",
+    "lat": 25.961161,
+    "lon": 119.505262,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625044391,
+    "name": "地铁郑和站",
+    "lat": 25.961378,
+    "lon": 119.49863,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "地铁郑和站",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625044392,
+    "name": "地铁郑和站",
+    "lat": 25.961145,
+    "lon": 119.497778,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "地铁郑和站",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625046623,
+    "name": "",
+    "lat": 25.954813,
+    "lon": 119.50659,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13625046642,
+    "name": "",
+    "lat": 25.955021,
+    "lon": 119.507317,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626118487,
+    "name": "首占村",
+    "lat": 25.936842,
+    "lon": 119.483257,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占村",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626118488,
+    "name": "首占村",
+    "lat": 25.936811,
+    "lon": 119.483399,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "首占村",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146042,
+    "name": "长乐一中首占校区",
+    "lat": 25.929324,
+    "lon": 119.489236,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐一中首占校区",
+      "name:en": "Changle No.1 Middle School Shouzhan Campus",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146089,
+    "name": "岱边",
+    "lat": 25.924209,
+    "lon": 119.490375,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "岱边",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146090,
+    "name": "岱边",
+    "lat": 25.923892,
+    "lon": 119.489841,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "岱边",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146091,
+    "name": "岱边",
+    "lat": 25.92448,
+    "lon": 119.490331,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "岱边",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146098,
+    "name": "福州外语外贸学院",
+    "lat": 25.928326,
+    "lon": 119.493658,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "福州外语外贸学院",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146414,
+    "name": "龙桂华府",
+    "lat": 25.935281,
+    "lon": 119.495417,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙桂华府",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146422,
+    "name": "长乐区人民医院",
+    "lat": 25.93922,
+    "lon": 119.500249,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐区人民医院",
+      "name:en": "Changle District People's Hospital",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146425,
+    "name": "长乐森林公园",
+    "lat": 25.940493,
+    "lon": 119.503019,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐森林公园",
+      "name:en": "Changle Forest Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146426,
+    "name": "长乐森林公园",
+    "lat": 25.941248,
+    "lon": 119.503446,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐森林公园",
+      "name:en": "Changle Forest Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146427,
+    "name": "上湖",
+    "lat": 25.943315,
+    "lon": 119.505112,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "上湖",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146428,
+    "name": "莲柄港",
+    "lat": 25.943128,
+    "lon": 119.509054,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "莲柄港",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146429,
+    "name": "莲柄港",
+    "lat": 25.942929,
+    "lon": 119.509521,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "莲柄港",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146468,
+    "name": "龙津长池",
+    "lat": 25.945278,
+    "lon": 119.495251,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙津长池",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626146470,
+    "name": "龙津长池",
+    "lat": 25.946489,
+    "lon": 119.496111,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "龙津长池",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174563,
+    "name": "文峰花园",
+    "lat": 25.967412,
+    "lon": 119.499762,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "文峰花园",
+      "name:en": "Wenfeng Garden R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174564,
+    "name": "文峰花园",
+    "lat": 25.96734,
+    "lon": 119.499529,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "文峰花园",
+      "name:en": "Wenfeng Garden R.Q.",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174565,
+    "name": "长乐儿童公园",
+    "lat": 25.96832,
+    "lon": 119.500986,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐儿童公园",
+      "name:en": "Changle Children‘s Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174566,
+    "name": "长乐儿童公园",
+    "lat": 25.968117,
+    "lon": 119.501051,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "长乐儿童公园",
+      "name:en": "Changle Children‘s Park",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174567,
+    "name": "泮野公交首末站（下客点）",
+    "lat": 25.966324,
+    "lon": 119.49683,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "泮野公交首末站（下客点）",
+      "name:en": "Panye Bus Terminal (D/O only)",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174570,
+    "name": "锦江三区",
+    "lat": 25.964303,
+    "lon": 119.499539,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "锦江三区",
+      "name:en": "River Garden R.Q. Zone 3",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "node",
+    "osm_id": 13626174571,
+    "name": "锦江三区",
+    "lat": 25.964407,
+    "lon": 119.499784,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "highway": "bus_stop",
+      "name": "锦江三区",
+      "name:en": "River Garden R.Q. Zone 3",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 382177306,
+    "name": "赤屿中学",
+    "lat": 25.928471,
+    "lon": 119.4625,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "赤屿中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 505208469,
+    "name": "长乐区海峡路小学",
+    "lat": 25.95245,
+    "lon": 119.490534,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区海峡路小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 634504185,
+    "name": "长山湖购物广场",
+    "lat": 25.959128,
+    "lon": 119.495703,
+    "category": "商场",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "addr:city": "福州",
+      "addr:district": "长乐区",
+      "addr:province": "福建省",
+      "building": "yes",
+      "name": "长山湖购物广场",
+      "name:zh": "长山湖购物广场",
+      "shop": "mall"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 634932557,
+    "name": "长乐区吴航中学",
+    "lat": 25.953399,
+    "lon": 119.523531,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "grades": "7-9",
+      "name": "长乐区吴航中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 907518041,
+    "name": "",
+    "lat": 25.95363,
+    "lon": 119.489281,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000085715,
+    "name": "塔山公园",
+    "lat": 25.964021,
+    "lon": 119.514477,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "塔山公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000473402,
+    "name": "长乐区鳌峰小学",
+    "lat": 25.957441,
+    "lon": 119.520274,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区鳌峰小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000473403,
+    "name": "长乐朝阳中学",
+    "lat": 25.95884,
+    "lon": 119.51835,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐朝阳中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000473404,
+    "name": "长乐师范学校附属小学",
+    "lat": 25.965389,
+    "lon": 119.518937,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐师范学校附属小学",
+      "name:zh": "长乐师范学校附属小学",
+      "official_name": "长乐师范学校附属小学教育集团总校区",
+      "operator": "长乐师范学校附属小学教育集团"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000474032,
+    "name": "吴航中心小学",
+    "lat": 25.965305,
+    "lon": 119.515658,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "吴航中心小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000474033,
+    "name": "长乐区实验小学",
+    "lat": 25.965829,
+    "lon": 119.510897,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区实验小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000474638,
+    "name": "福州幼师长乐十洋联办幼儿园",
+    "lat": 25.959304,
+    "lon": 119.517084,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "福州幼师长乐十洋联办幼儿园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000474639,
+    "name": "长乐区实验幼儿园",
+    "lat": 25.960014,
+    "lon": 119.516291,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区实验幼儿园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000476221,
+    "name": "长乐高级中学",
+    "lat": 25.960854,
+    "lon": 119.524238,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐高级中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000476611,
+    "name": "长乐华侨中学",
+    "lat": 25.963239,
+    "lon": 119.495919,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐华侨中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000477332,
+    "name": "长乐洞江小学",
+    "lat": 25.959774,
+    "lon": 119.502887,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐洞江小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502434,
+    "name": "长乐区航城中学",
+    "lat": 25.965745,
+    "lon": 119.505498,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区航城中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502435,
+    "name": "冰心公园",
+    "lat": 25.966967,
+    "lon": 119.505303,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "冰心公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502436,
+    "name": "福州外语外贸学院",
+    "lat": 25.925847,
+    "lon": 119.496598,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "university",
+      "name": "福州外语外贸学院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502437,
+    "name": "长乐一中首占校区",
+    "lat": 25.931078,
+    "lon": 119.489508,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "grades": "10-12",
+      "name": "长乐一中首占校区",
+      "name:zh": "长乐一中首占校区",
+      "official_name": "福建省长乐第一中学教育集团首占校区",
+      "operator": "福建省长乐第一中学教育集团"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502438,
+    "name": "长乐区教师进修学校附属小学",
+    "lat": 25.943745,
+    "lon": 119.485276,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区教师进修学校附属小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000502439,
+    "name": "长乐区实验幼儿园分园",
+    "lat": 25.944523,
+    "lon": 119.483796,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区实验幼儿园分园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000510278,
+    "name": "下朱小学",
+    "lat": 25.971152,
+    "lon": 119.495037,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "下朱小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000510279,
+    "name": "长乐儿童公园",
+    "lat": 25.968708,
+    "lon": 119.500779,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "长乐儿童公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000510280,
+    "name": "长乐区泮野中心小学",
+    "lat": 25.963491,
+    "lon": 119.489278,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "grades": "1-6",
+      "name": "长乐区泮野中心小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000512172,
+    "name": "长乐区中医院",
+    "lat": 25.962154,
+    "lon": 119.515301,
+    "category": "医院",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "hospital",
+      "emergency": "yes",
+      "healthcare": "hospital",
+      "name": "长乐区中医院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000512173,
+    "name": "长乐区妇幼保健院",
+    "lat": 25.962377,
+    "lon": 119.514567,
+    "category": "医院",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "长乐区妇幼保健院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000514758,
+    "name": "长乐区北山小学",
+    "lat": 25.942299,
+    "lon": 119.525941,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区北山小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1000779848,
+    "name": "长乐区航城卫生院",
+    "lat": 25.963469,
+    "lon": 119.509197,
+    "category": "医院",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "长乐区航城卫生院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1003388948,
+    "name": "联村小学",
+    "lat": 25.953026,
+    "lon": 119.50788,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "联村小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1004247458,
+    "name": "",
+    "lat": 25.961595,
+    "lon": 119.512306,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1004646308,
+    "name": "永荣广场",
+    "lat": 25.945638,
+    "lon": 119.489213,
+    "category": "商场",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "building": "retail",
+      "name": "永荣广场",
+      "shop": "mall"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1004933248,
+    "name": "屿后小学",
+    "lat": 25.931438,
+    "lon": 119.471409,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "education": "school",
+      "name": "屿后小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1005462637,
+    "name": "马头小学",
+    "lat": 25.942811,
+    "lon": 119.46293,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "education": "school",
+      "name": "马头小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1021874429,
+    "name": "",
+    "lat": 25.927186,
+    "lon": 119.480629,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "area": "yes",
+      "public_transport": "platform",
+      "railway": "platform",
+      "train": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1021874430,
+    "name": "",
+    "lat": 25.927455,
+    "lon": 119.480667,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "area": "yes",
+      "public_transport": "platform",
+      "railway": "platform",
+      "train": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1132415104,
+    "name": "长安小学",
+    "lat": 25.962896,
+    "lon": 119.478059,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长安小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1263766200,
+    "name": "长乐师范学校附属小学营前校区",
+    "lat": 25.953638,
+    "lon": 119.45983,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐师范学校附属小学营前校区"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1304952664,
+    "name": "国惠大酒楼",
+    "lat": 25.955847,
+    "lon": 119.494,
+    "category": "店铺",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "chinese",
+      "name": "国惠大酒楼"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1304952672,
+    "name": "喜来宝大酒楼",
+    "lat": 25.960672,
+    "lon": 119.520033,
+    "category": "店铺",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "restaurant",
+      "building": "yes",
+      "cuisine": "chinese",
+      "name": "喜来宝大酒楼"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1304953893,
+    "name": "河滨公园",
+    "lat": 25.964213,
+    "lon": 119.511613,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "河滨公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1305486522,
+    "name": "长乐区琅峰中学",
+    "lat": 25.906056,
+    "lon": 119.469262,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐区琅峰中学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312143687,
+    "name": "长乐人民公园",
+    "lat": 25.937995,
+    "lon": 119.488678,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "长乐人民公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312148292,
+    "name": "",
+    "lat": 25.952953,
+    "lon": 119.475813,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312148293,
+    "name": "",
+    "lat": 25.950921,
+    "lon": 119.480023,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312148294,
+    "name": "",
+    "lat": 25.948124,
+    "lon": 119.478366,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312148295,
+    "name": "",
+    "lat": 25.953784,
+    "lon": 119.472342,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312148300,
+    "name": "",
+    "lat": 25.956327,
+    "lon": 119.467092,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312149112,
+    "name": "",
+    "lat": 25.949762,
+    "lon": 119.474625,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312405361,
+    "name": "影视公园",
+    "lat": 25.955337,
+    "lon": 119.509291,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "影视公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312405698,
+    "name": "",
+    "lat": 25.957847,
+    "lon": 119.513441,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312405699,
+    "name": "",
+    "lat": 25.959127,
+    "lon": 119.515992,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1312419786,
+    "name": "",
+    "lat": 25.949753,
+    "lon": 119.508385,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1314372238,
+    "name": "长乐区人民医院",
+    "lat": 25.940527,
+    "lon": 119.499383,
+    "category": "医院",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "长乐区人民医院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315449171,
+    "name": "",
+    "lat": 25.955765,
+    "lon": 119.464581,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315452856,
+    "name": "永荣支路街心公园",
+    "lat": 25.947084,
+    "lon": 119.490273,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "永荣支路街心公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315681728,
+    "name": "",
+    "lat": 25.954735,
+    "lon": 119.47032,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315681729,
+    "name": "",
+    "lat": 25.954941,
+    "lon": 119.4704,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315688789,
+    "name": "",
+    "lat": 25.957805,
+    "lon": 119.467854,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315688790,
+    "name": "",
+    "lat": 25.957864,
+    "lon": 119.468117,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315688797,
+    "name": "",
+    "lat": 25.955131,
+    "lon": 119.487904,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315688800,
+    "name": "",
+    "lat": 25.956105,
+    "lon": 119.491933,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315688801,
+    "name": "",
+    "lat": 25.956398,
+    "lon": 119.492171,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691567,
+    "name": "",
+    "lat": 25.96139,
+    "lon": 119.510169,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691568,
+    "name": "",
+    "lat": 25.961215,
+    "lon": 119.510953,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691570,
+    "name": "",
+    "lat": 25.96138,
+    "lon": 119.505556,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691571,
+    "name": "",
+    "lat": 25.961156,
+    "lon": 119.501628,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691572,
+    "name": "",
+    "lat": 25.961359,
+    "lon": 119.501931,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691573,
+    "name": "",
+    "lat": 25.961377,
+    "lon": 119.498747,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1315691574,
+    "name": "",
+    "lat": 25.961146,
+    "lon": 119.497654,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316085454,
+    "name": "",
+    "lat": 25.968225,
+    "lon": 119.50666,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316085455,
+    "name": "",
+    "lat": 25.968062,
+    "lon": 119.505261,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316086560,
+    "name": "城关派出所",
+    "lat": 25.965187,
+    "lon": 119.498547,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "police",
+      "building": "yes",
+      "name": "城关派出所"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316095291,
+    "name": "",
+    "lat": 25.946149,
+    "lon": 119.508547,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316095292,
+    "name": "",
+    "lat": 25.946284,
+    "lon": 119.508736,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108788,
+    "name": "",
+    "lat": 25.953703,
+    "lon": 119.524703,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108789,
+    "name": "",
+    "lat": 25.953688,
+    "lon": 119.524331,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108790,
+    "name": "",
+    "lat": 25.954621,
+    "lon": 119.52386,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108791,
+    "name": "",
+    "lat": 25.955187,
+    "lon": 119.524269,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108792,
+    "name": "",
+    "lat": 25.954981,
+    "lon": 119.52446,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316108796,
+    "name": "",
+    "lat": 25.954368,
+    "lon": 119.485606,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "building": "transportation",
+      "public_transport": "station",
+      "railway": "station",
+      "station": "subway",
+      "subway": "yes"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316112043,
+    "name": "",
+    "lat": 25.957189,
+    "lon": 119.495586,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316112044,
+    "name": "",
+    "lat": 25.957554,
+    "lon": 119.498174,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316112045,
+    "name": "",
+    "lat": 25.957857,
+    "lon": 119.498466,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316112049,
+    "name": "",
+    "lat": 25.957929,
+    "lon": 119.502259,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1316112050,
+    "name": "",
+    "lat": 25.958152,
+    "lon": 119.50315,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1319392928,
+    "name": "长乐区第六医院",
+    "lat": 25.944655,
+    "lon": 119.516132,
+    "category": "医院",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "hospital",
+      "healthcare": "hospital",
+      "name": "长乐区第六医院"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1323345891,
+    "name": "长乐区公安局",
+    "lat": 25.955462,
+    "lon": 119.496601,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "police",
+      "building": "yes",
+      "name": "长乐区公安局"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1323346321,
+    "name": "廉园",
+    "lat": 25.937831,
+    "lon": 119.497973,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "廉园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1333145139,
+    "name": "首占中心小学",
+    "lat": 25.932852,
+    "lon": 119.487572,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "首占中心小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1347712056,
+    "name": "长乐人民公园",
+    "lat": 25.935434,
+    "lon": 119.493066,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "长乐人民公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1347712782,
+    "name": "长乐人民公园",
+    "lat": 25.936214,
+    "lon": 119.493161,
+    "category": "公园",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "leisure": "park",
+      "name": "长乐人民公园"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1356351519,
+    "name": "中国工商银行",
+    "lat": 25.957594,
+    "lon": 119.509152,
+    "category": "生活服务",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bank",
+      "atm": "yes",
+      "brand": "中国工商银行",
+      "brand:en": "Industrial and Commercial Bank of China",
+      "brand:wikidata": "Q26463",
+      "brand:zh": "中国工商银行",
+      "building": "yes",
+      "name": "中国工商银行",
+      "name:en": "Industrial and Commercial Bank of China",
+      "name:zh": "中国工商银行"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1365860337,
+    "name": "长乐少体校",
+    "lat": 25.960473,
+    "lon": 119.514672,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐少体校"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1370141766,
+    "name": "长乐特殊教育学校",
+    "lat": 25.959589,
+    "lon": 119.525313,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "name": "长乐特殊教育学校"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1442576402,
+    "name": "",
+    "lat": 25.928053,
+    "lon": 119.534035,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1446202395,
+    "name": "长乐坑田小学",
+    "lat": 25.894921,
+    "lon": 119.473812,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "school",
+      "education": "school",
+      "name": "长乐坑田小学"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1473868211,
+    "name": "地铁首占站（长乐火车站）",
+    "lat": 25.92829,
+    "lon": 119.481749,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "地铁首占站（长乐火车站）",
+      "network": "长乐闽运公交",
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1482523623,
+    "name": "泮野公交首末站",
+    "lat": 25.966154,
+    "lon": 119.496581,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "泮野公交首末站",
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1486292898,
+    "name": "长乐公交枢纽站",
+    "lat": 25.942313,
+    "lon": 119.493297,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "长乐公交枢纽站",
+      "public_transport": "station"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1486302636,
+    "name": "",
+    "lat": 25.961164,
+    "lon": 119.505152,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "bus": "yes",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1486422059,
+    "name": "福州外语外贸学校首占校区",
+    "lat": 25.92994,
+    "lon": 119.491269,
+    "category": "学校",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "university",
+      "education": "university",
+      "name": "福州外语外贸学校首占校区"
+    }
+  },
+  {
+    "osm_type": "way",
+    "osm_id": 1486422061,
+    "name": "",
+    "lat": 25.928296,
+    "lon": 119.493462,
+    "category": "公共交通",
+    "campus": "福州外语外贸学院长乐校区",
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "public_transport": "station"
+    }
+  }
+]

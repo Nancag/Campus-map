@@ -1,0 +1,27 @@
+{
+  "滨海校区": {
+    "北门": {
+      "lng": 119.560695,
+      "lat": 25.878992,
+      "verified": true,
+      "source": "manual_verified_amap",
+      "verifiedBy": "袁颖"
+    },
+    "南门": {
+      "lng": 119.561799,
+      "lat": 25.87525,
+      "verified": true,
+      "source": "manual_verified_amap",
+      "verifiedBy": "袁颖"
+    }
+  },
+  "长乐校区": {
+    "北门": {
+      "lng": 119.502196,
+      "lat": 25.926699,
+      "verified": true,
+      "source": "manual_verified_amap",
+      "verifiedBy": "袁颖"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Campus map · 地图</title>
+  <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+  <link rel="stylesheet" href="/map.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="/index.html" class="back-link">← 首页</a>
+    <span class="topbar-title">Campus map · 拼车地图</span>
+    <span id="user-badge" class="user-badge hidden"></span>
+    <button id="logout-btn" class="logout-btn hidden">退出</button>
+  </header>
+
+  <div id="guest-overlay" class="overlay">
+    <div class="guest-card">
+      <h2>游客进入</h2>
+      <p class="guest-hint">输入昵称即可使用，无需注册</p>
+      <input id="nickname-input" type="text" maxlength="20" placeholder="你的昵称（≤20字）" autocomplete="off" />
+      <div class="gender-pick">
+        <label class="gender-label">性别</label>
+        <div class="gender-btns">
+          <button type="button" class="gender-btn active" data-gender="保密">保密</button>
+          <button type="button" class="gender-btn" data-gender="男">男</button>
+          <button type="button" class="gender-btn" data-gender="女">女</button>
+        </div>
+      </div>
+      <button id="enter-btn" class="btn-primary">进入地图</button>
+      <p id="guest-msg" class="msg"></p>
+    </div>
+  </div>
+
+  <main class="map-layout">
+    <aside class="sidebar">
+      <div class="panel">
+        <h3 class="panel-title">校区</h3>
+        <div id="campus-list" class="campus-list"></div>
+      </div>
+      <div class="panel">
+        <h3 class="panel-title">出发入口</h3>
+        <select id="gate-select" class="gate-select"></select>
+      </div>
+      <div class="panel">
+        <h3 class="panel-title">附近队伍</h3>
+        <div id="trip-list" class="trip-list">
+          <p class="empty-hint">点击地图上的地点创建队伍</p>
+        </div>
+      </div>
+    </aside>
+
+    <div id="map" class="map-container"></div>
+  </main>
+
+  <div id="create-modal" class="modal hidden">
+    <div class="modal-card">
+      <h3>创建拼车队伍</h3>
+      <div class="modal-row">
+        <label>出发地</label>
+        <span id="cm-origin" class="modal-value"></span>
+      </div>
+      <div class="modal-row">
+        <label>目的地</label>
+        <span id="cm-dest" class="modal-value"></span>
+      </div>
+      <div class="modal-row">
+        <label>出发时间</label>
+        <input id="cm-depart" type="datetime-local" />
+      </div>
+      <div class="modal-row">
+        <label>可拼人数</label>
+        <input id="cm-seats" type="number" min="1" max="8" value="3" />
+      </div>
+      <div class="modal-row">
+        <label>费用(元)</label>
+        <input id="cm-fee" type="number" min="0" step="0.5" placeholder="可选" />
+      </div>
+      <div class="modal-row">
+        <label>性别要求</label>
+        <select id="cm-gender">
+          <option value="不限">不限</option>
+          <option value="仅女生">仅女生</option>
+          <option value="仅男生">仅男生</option>
+        </select>
+      </div>
+      <div class="modal-row">
+        <label>备注</label>
+        <input id="cm-remark" type="text" maxlength="200" placeholder="可选，≤200字" />
+      </div>
+      <div class="modal-actions">
+        <button id="cm-cancel" class="btn-secondary">取消</button>
+        <button id="cm-confirm" class="btn-primary">创建</button>
+      </div>
+      <p id="cm-msg" class="msg"></p>
+    </div>
+  </div>
+
+  <div id="join-modal" class="modal hidden">
+    <div class="modal-card">
+      <h3>加入队伍</h3>
+      <div id="jm-info" class="join-info"></div>
+      <div class="modal-actions">
+        <button id="jm-cancel" class="btn-secondary">关闭</button>
+      </div>
+      <p id="jm-msg" class="msg"></p>
+    </div>
+  </div>
+
+  <script src="/vendor/leaflet/leaflet.js"></script>
+  <script src="/map.js"></script>
+</body>
+</html>
