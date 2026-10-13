@@ -1,10 +1,12 @@
 """论坛帖子业务服务：发布校验、列表与详情。"""
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from typing import Optional, Tuple
 
 from app.config import ADMIN_USERNAMES, POST_CONTENT_MAX_LEN, POST_TITLE_MAX_LEN, POST_TOPICS
 from app.models.schemas import ErrorCode
 from app.repositories import post_repo
+
+_BEIJING = timezone(timedelta(hours=8))
 
 
 def create_post(username: str, req) -> Tuple[int, str, Optional[dict]]:
@@ -29,7 +31,7 @@ def create_post(username: str, req) -> Tuple[int, str, Optional[dict]]:
         "campusName": req.campusName,
         "topic": topic,
         "tripId": getattr(req, "tripId", None),
-        "createdAt": datetime.now().isoformat(),
+        "createdAt": datetime.now(_BEIJING).isoformat(),
     }
     post_repo.create(post)
     return ErrorCode.OK, "ok", {"postId": post["postId"]}

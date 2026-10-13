@@ -88,12 +88,17 @@
   function formatTime(iso) {
     var d = new Date(iso);
     var now = new Date();
-    var diff = (now - d) / 1000;
-    if (diff < 60) return "刚刚";
-    if (diff < 3600) return Math.floor(diff / 60) + "分钟前";
-    if (diff < 86400) return Math.floor(diff / 3600) + "小时前";
-    if (diff < 604800) return Math.floor(diff / 86400) + "天前";
-    return d.toLocaleDateString("zh-CN");
+    var dDate = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    var nowDate = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var dayDiff = Math.round((nowDate - dDate) / 86400000);
+    var hh = String(d.getHours()).padStart(2, "0");
+    var mm = String(d.getMinutes()).padStart(2, "0");
+    if (dayDiff === 0) return hh + ":" + mm;
+    if (dayDiff === 1) return "昨天 " + hh + ":" + mm;
+    var yyyy = d.getFullYear();
+    var MM = String(d.getMonth() + 1).padStart(2, "0");
+    var DD = String(d.getDate()).padStart(2, "0");
+    return yyyy + "-" + MM + "-" + DD + " " + hh + ":" + mm;
   }
 
   function loadPosts() {
